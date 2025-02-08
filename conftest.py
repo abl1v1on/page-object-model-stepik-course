@@ -18,7 +18,7 @@ def proxy() -> Generator:
 @pytest.fixture(scope='session')
 def options() -> Options:
     options = Options()
-    options.add_argument('--headless')
+    # options.add_argument('--headless')
     return options
 
 
